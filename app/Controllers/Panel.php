@@ -154,7 +154,7 @@ class Panel extends BaseController
                     view('tema/footer');
             }
 
-            // Gerekli kuralları tanımla
+            // Gerekli kuralları tanımlama
             $rules = [
                 'baslik' => 'required',
                 'icerik' => 'required',
@@ -175,7 +175,7 @@ class Panel extends BaseController
 
             if ($sonuc) {
                 // Başarıyla güncellendiyse kayıt düzenleme sayfasına yönlendirir
-                return redirect()->to(base_url('kayit_duzenle/.$id'));
+                return redirect()->to(base_url('kayit_duzenle/'.$id));
             }
         } 
         else 

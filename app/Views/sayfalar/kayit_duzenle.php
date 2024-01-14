@@ -5,7 +5,7 @@
     <div class="bg-light rounded h-100 d-flex align-items-center p-5">
 
         <!-- Kayıt düzenleme formu -->
-        <form action="<?= base_url('kayit_duzenle') ?>" method="post">
+        <form action="<?= base_url('kayit_duzenle/'.$veri['id'])?>" method="post">
             <?= csrf_field() ?>
             <div class="row g-3">
 

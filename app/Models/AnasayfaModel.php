@@ -21,4 +21,16 @@ class AnasayfaModel extends Model
 
         return $this->where('url', $url)->find(); // Verilen URL'ye sahip olan kaydı bulur ve döndürür
     }
+
+    public function kullanici_kayit($kulad,$sifre,$email)
+    {
+        $builder = $this->db->table('kullanicilar');
+        $data=[
+            'kulad'=>$kulad,
+            'sifre'=>$sifre,
+            'email'=>$email,
+        ];
+
+        return $builder->insert($data);
+    }
 }

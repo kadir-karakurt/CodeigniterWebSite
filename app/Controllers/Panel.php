@@ -156,7 +156,7 @@ class Panel extends BaseController
 
             // Gerekli kuralları tanımlama
             $rules = [
-                'baslik' => 'required',
+                'baslik' => 'required|max_length[55]',
                 'icerik' => 'required',
             ];
 

@@ -23,7 +23,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Servisler</h5>
-                <a class="btn btn-link" href="">Kardiyoloji</a>
+                <p class="btn btn-link"><?=anchor(base_url('ozellikler'),'Kardiyoloji');?></p>
                 <a class="btn btn-link" href="">Göğüs Hastalıkları</a>
                 <a class="btn btn-link" href="">Nöroloji</a>
                 <a class="btn btn-link" href="">Ortopedi</a>
@@ -31,11 +31,11 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Hızlı Bağlantılar</h5>
-                <a class="btn btn-link" href="">Hakkımızda</a>
-                <a class="btn btn-link" href="">İeltişim</a>
-                <a class="btn btn-link" href="">Hizmetlerimiz</a>
-                <a class="btn btn-link" href="">Şartlar ve Koşullar</a>
-                <a class="btn btn-link" href="">Destek</a>
+                <p class="btn btn-link"><?=anchor(base_url('about'),'Hakkımızda');?></p>
+                <p class="btn btn-link"><?=anchor(base_url('iletisim'),'İletişim');?></p>
+                <p class="btn btn-link"><?=anchor(base_url('ozellikler'),'Hizmetlerimiz');?></p>
+                <p class="btn btn-link">Şartlar ve Koşullar</p>
+                <p class="btn btn-link">Destek</p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Haber Bülteni</h5>

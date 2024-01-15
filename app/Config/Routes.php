@@ -8,7 +8,11 @@ use CodeIgniter\Router\RouteCollection;
 
 // Anasayfa işlemleri
 $routes->get('/', 'Anasayfa::index');
+$routes->addRedirect('index', '/');
+
 $routes->match(['get','post'], 'login','Anasayfa::login');
+$routes->match(['get','post'], 'kullanici_kayit','Anasayfa::kullanici_kayit');
+
 $routes->get('logout', 'Anasayfa::logout');
 $routes->get('incele/(:segment)', 'Anasayfa::incele/$1');
 

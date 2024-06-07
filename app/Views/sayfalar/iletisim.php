@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="ms-4">
                                     <p class="mb-2">Adres</p>
-                                    <h5 class="mb-0">10900 Gönen, Balıkesir, Türkiye</h5>
+                                    <h5 class="mb-0">34744 Kadıköy, İstanbul, Türkiye</h5>
                                 </div>
                             </div>
                         </div>
@@ -118,9 +118,8 @@
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                             <div class="h-100" style="min-height: 400px;">
-                                <iframe class="rounded w-100 h-100"
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                                    frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48192.2595167296!2d29.021853571809945!3d40.98112566648365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac790b17ba89d%3A0xd2d24ea0437a7ee2!2zS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1717694466769!5m2!1str!2str"
+                                        width="600" height="680" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>

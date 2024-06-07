@@ -7,7 +7,7 @@
             <div class="col-lg-3 col-md-6">
                 <!-- İlk sütun: Adres ve iletişim bilgileri -->
                 <h5 class="text-light mb-4">Address</h5>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>10900 Gönen, Balıkesir, Türkiye</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>34744 Kadıköy, İstanbul, Türkiye</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+090 012 345 6789</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                 <div class="d-flex pt-2">
